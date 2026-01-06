@@ -35,17 +35,15 @@ const Connect = () => {
           whileInView="show"
           className="text-[#050038] md:w-[355px] md:mb-4 mb-1 lg:w-full [font-family:Inter] text-4xl md:text-5xl not-italic font-bold leading-[56px] tracking-[-1px]"
         >
-          We are your trusted partner for a flourishing digital future
+          Votre partenaire de confiance pour un avenir numérique florissant
         </motion.p>
 
         <p className="md:w-[458.934px] text-[rgba(5,0,56,0.60)] [font-family:Inter] text-lg not-italic font-normal leading-6">
-          We combine expertise, creativity, and commitment to turn your
-          challenges into opportunities, ensuring exceptional IT solutions and a
-          reliable partnership for the success of your business.
+          Nous allions expertise, créativité et engagement pour transformer vos défis en opportunités. Des solutions IT exceptionnelles pour votre succès.
         </p>
         <div className="inline-flex text-[#4262FF] transition-all duration-300 items-end gap-[5px] my-2 hover:text-red-600 hover:scale-105">
           <p className="[font-family:Inter] text-lg not-italic font-normal leading-6">
-            Learn more
+            En savoir plus
           </p>
           <p className="text-[#4262FF] [font-family:Inter] text-lg not-italic font-normal leading-6">
             →

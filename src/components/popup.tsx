@@ -20,7 +20,7 @@ const Popup = () => {
           initial={{ y: -10 }}
           animate={{ y: 10 }}
           transition={{
-            duration: 1,
+            duration: 2,
             repeat: Infinity,
             repeatType: "reverse",
             ease: "easeInOut",

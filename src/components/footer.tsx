@@ -17,10 +17,10 @@ const Footer = () => {
       <div className="footer-gradient z-0" />
       <div className="flex flex-col   items-center gap-[100px] pt-10 w-full">
         <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4 items-start pr-10">
-          <Ul_1 title={"Product"} />
+          <Ul_1 title={"Services"} />
           <Ul_2 title={"Solutions"} />
-          <Ul_3 title={"Resources"} />
-          <Ul_4 title={"Company"} />
+          <Ul_3 title={"Ressources"} />
+          <Ul_4 title={"Entreprise"} />
         </div>
         <div className="flex flex-col md:flex-row gap-4 items-start justify-between w-full border-solid border-t border-[#9B99AF]">
           <div className="flex    justify-center px-4 gap-6    text-yellow-50">
@@ -116,9 +116,9 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="inline-flex gap-2">
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-                <p>Manage Cookies</p>
+                <p>Conditions d&apos;utilisation</p>
+                <p>Politique de confidentialité</p>
+                <p>Gérer les cookies</p>
               </div>
             </div>
           </div>
@@ -139,18 +139,18 @@ const Ul_1 = (prop: Props) => {
         {prop.title}
         <ul className="flex flex-col items-start gap-[18px]">
           <li className="flex flex-col items-start gap-[7px] pl-0 pr-[69px] pt-0 pb-px text-white">
-            <List description={"Online whiteboard"} />
-            <List description={"Apps & Integrations"} />
-            <List description={"Templates"} />
-            <List description={"Miroverse"} />
-            <List description={"Miro Developer Platform"} />
-            <List description={"for any Devices"} />
-            <List description={"Accessibility"} />
-            <List description={"Changelog"} />
+            <List description={"Développement Web"} />
+            <List description={"Applications Mobiles"} />
+            <List description={"Sites E-commerce"} />
+            <List description={"Applications Sur Mesure"} />
+            <List description={"Maintenance & Support"} />
+            <List description={"Audit & Conseil"} />
+            <List description={"UI/UX Design"} />
+            <List description={"SEO & Marketing"} />
           </li>
           <div className="relative  text-white  bg-yellow-400 z-0  py-1 px-2 overflow-hidden border-solid rounded-2xl cursor-pointer  flex justify-center items-center  group hover:text-gray-800">
             <p className=" [font-family:Inter] text-base not-italic font-normal leading-6 ">
-              View demo →
+              Voir démo →
             </p>
             <div className="absolute inset-0 bg-slate-300 -z-10 translate-x-full duration-300 ease-in group-hover:translate-x-0" />
           </div>
@@ -167,17 +167,12 @@ const Ul_2 = (prop: Props) => {
         {prop.title}
         <div className="flex flex-col items-start gap-[18px]">
           <li className="flex flex-col items-start gap-[7px] pl-0 pr-[69px] pt-0 pb-px text-white">
-            <List description={"Meetings and Workshops"} />
-            <List description={"Brainstorming & Ideation"} />
-            <List description={"Agile Workflows"} />
-            <List description={"Diagramming"} />
-            <List description={"Research & Design"} />
-            <List description={"Strategy & Planning"} />
-            <List description={"Mind Map"} />
-            <List description={"Concept Map"} />
-            <List description={"Online Sticky Notes"} />
-            <List description={"Flowchart"} />
-            <List description={"Wireframing"} />
+            <List description={"Startups"} />
+            <List description={"PME / TPE"} />
+            <List description={"Grandes Entreprises"} />
+            <List description={"Agences Digitales"} />
+            <List description={"E-commerçants"} />
+            <List description={"Associations"} />
           </li>
         </div>
       </div>
@@ -192,11 +187,11 @@ const Ul_3 = (prop: Props) => {
         {prop.title}
         <div className="flex flex-col items-start gap-[18px]">
           <li className="flex flex-col items-start gap-[7px] pl-0 pr-[69px] pt-0 pb-px text-white">
-            <List description={"Masha Academy"} />
             <List description={"Blog"} />
-            <List description={"Status"} />
-            <List description={"Professional Network"} />
-            <List description={"Events"} />
+            <List description={"Études de Cas"} />
+            <List description={"Guides Techniques"} />
+            <List description={"FAQ"} />
+            <List description={"Contact"} />
           </li>
         </div>
       </div>
@@ -211,10 +206,10 @@ const Ul_4 = (prop: Props) => {
         {prop.title}
         <div className="flex flex-col items-start gap-[18px]">
           <li className="flex flex-col items-start gap-[7px] pl-0 pr-[69px] pt-0 pb-px text-white">
-            <List description={"About us"} />
-            <List description={"Careers 🚀"} />
-            <List description={"Miro in the News"} />
-            <List description={"Customer Stories"} />
+            <List description={"À propos"} />
+            <List description={"Carrières 🚀"} />
+            <List description={"Presse"} />
+            <List description={"Témoignages"} />
           </li>
         </div>
       </div>

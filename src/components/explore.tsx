@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../app/styles/indx";
-import CardList from "../data/card";
+import CardList, { Card } from "../data/card";
 import { staggerContainer } from "../app/utils/motion";
 import { TitleText, TypingText } from "../components/customText";
 import Expandedcard from "../components/expandedcard";
@@ -24,7 +24,7 @@ const Explorer = () => {
         className={`${styles.innerWidth} mx-auto flex 
       flex-col`}
       >
-        <TypingText title="| Our Team" textStyles="text-center" />
+        <TypingText title="| Notre Équipe" textStyles="text-center" />
 
         <TitleText
           title={
@@ -32,8 +32,8 @@ const Explorer = () => {
               <TitleText
                 title={
                   <>
-                    Experience excellence with
-                    <br className="md:block hidden" /> our dedicated team
+                    L&apos;excellence technique
+                    <br className="md:block hidden" /> au service de vos projets
                   </>
                 }
                 textStyles="text-center"
@@ -43,7 +43,7 @@ const Explorer = () => {
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {CardList.map((world, index) => (
+          {CardList.map((world: Card, index) => (
             <Expandedcard
               imageUrl={world.url}
               title={world.name}

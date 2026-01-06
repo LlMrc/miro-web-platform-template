@@ -22,16 +22,14 @@ const WorkTogether = () => {
           whileInView="show"
           className="w-full md:w-[440.7px]  text-[#050038] [font-family:Inter] text-4xl md:text-5xl not-italic font-bold leading-[56px] tracking-[-1px]"
         >
-          Work together, wherever you work
+          Expertise Multi-Plateforme
         </motion.p>
         <p className="sm:w-full md:w-[453.716px] text-[rgba(5,0,56,0.60)] [font-family:Inter] text-lg not-italic font-normal leading-6">
-          In the office, remote, or a mix of the two, with Miro, your team can
-          connect, collaborate, and co-create in one space no matter where you
-          are.
+          Web, Mobile (iOS & Android). Nous créons des expériences utilisateurs fluides et cohérentes sur tous les appareils pour maximiser votre impact.
         </p>
         <div className="inline-flex items-end justify-center gap-[5.016px] my-4 transition-all duration-300 hover:scale-105 ">
           <span className="flex w-[104.716px] h-[22px] flex-col  text-[#4262FF] justify-center shrink-0 border-b-[#4262FF] border-b border-solid">
-            Learn more
+            En savoir plus
           </span>
           <span className="text-[#4262FF]">→</span>
         </div>

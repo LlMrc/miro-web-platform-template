@@ -24,10 +24,10 @@ const OurCompany = () => {
           whileInView="show"
           className="text-[#050038] text-center [font-family:Inter] text-5xl not-italic font-bold leading-[56px] tracking-[-1px]"
         >
-          Why companies large and small trust Masha+
+          Pourquoi choisir Masha+ pour vos projets ?
         </motion.p>
         <p className="text-[#050038] text-center [font-family:Inter] text-lg not-italic font-normal leading-6">
-          Contact Sales to request a demo
+          Une équipe dédiée à votre réussite.
         </p>
       </motion.div>
       <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 items-center justify-center px-4 md:px-[60px] lg:px-[100px] py-2 md:py-10">

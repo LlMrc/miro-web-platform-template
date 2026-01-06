@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import brainstorm from "../../public/images/Brainstorm.png";
 import { motion } from "framer-motion";
+
 import {
   staggerContainer,
   textContainer,
@@ -25,20 +26,20 @@ const Tuto = () => {
         variants={textContainer}
         className="text-[#050038] p-2  [font-family:Inter] md:text-4xl text-xl lg:text-5xl not-italic font-bold leading-[56px] tracking-[-1px]"
       >
-        {Array.from("Built for the way you work").map((letter, index) => (
+        {Array.from("Conçu pour votre réussite").map((letter, index) => (
           <motion.span variants={textVariant2} key={index}>
             {letter === "" ? "\u00a0" : letter}
           </motion.span>
         ))}
       </motion.p>
       <div className="hidden md:inline-flex justify-end items-start gap-2 ">
-        <Title title={"Brainstorming"} />
-        <Title title={"Diagramming"} />
-        <Title title={"Meetings & Workshops"} />
-        <Title title={"Scrum Events"} />
-        <Title title={"Mapping"} />
-        <Title title={"Research & Design"} />
-        <Title title={"Strategic Planning"} />
+        <Title title={"Conception"} />
+        <Title title={"Design"} />
+        <Title title={"Développement"} />
+        <Title title={"Tests"} />
+        <Title title={"Déploiement"} />
+        <Title title={"Maintenance"} />
+        <Title title={"Audit"} />
       </div>
 
       <div className="flex flex-col md:flex-row  md:w-[1060px] md:h-[517.016px] justify-center my-10 items-start shrink-0 gap-2">
@@ -47,13 +48,10 @@ const Tuto = () => {
             Masha plus
           </p>
           <p className="text-[rgba(5,0,56,0.70)] mx-2 [font-family:Helvetica] text-lg not-italic font-normal leading-6">
-            we ensure your online presence not only meets but exceeds the
-            expectations of today's digital landscape. Elevate your brand,
-            engage your audience, and thrive in the online realm with our
-            top-notch web development solutions. Your success is our code!
+            Nous assurons que votre présence en ligne dépasse les attentes. Élevez votre marque et engagez votre audience avec nos solutions web haut de gamme. Votre succès est notre code !
           </p>
           <p className="text-[#4262FF] m-2 [font-family:Helvetica] text-lg not-italic font-normal leading-6">
-            Learn more →
+            En savoir plus →
           </p>
         </div>
 

@@ -13,14 +13,14 @@ const Banner = () => {
     >
       <div className="flex items-center justify-center p-1 md:p-4 md:gap-4 md:h-[200px] flex-col w-2/5 md:mr-[200px] bg-slate-200">
         <p className="text-[#050038] text-center [font-family:Inter] text-lg md:text-[22px] not-italic font-bold leading-[38px] tracking-[-0.5px]">
-          The Ways We Work
+          Notre Méthode de Travail
         </p>
         <p className="text-[#050038] text-center [font-family:Helvetica] text-sm md:text-lg not-italic font-normal leading-6">
-          How has our relationship with work changed?
+          Nous adoptons une approche agile et collaborative pour chaque projet.
         </p>
         <div className="border [background:#4262FF]   rounded-[40px] border-solid border-[#4262FF] hover:shadow-lg">
           <p className="text-white  md:m-2 my-1 mx-2 text-center [font-family:Helvetica] text-xs md:text-sm not-italic font-normal leading-5">
-            View the report →
+            Voir notre portfolio →
           </p>
         </div>
       </div>

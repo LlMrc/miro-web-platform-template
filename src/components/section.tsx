@@ -11,7 +11,7 @@ const SectionPage = () => {
     <div className="inline-flex py-[60px] justify-center  items-start md:my-14 my-2 relative w-screen">
       <div className="flex  flex-col justify-center items-center gap-[48px]">
         <p className="text-[rgba(5,0,56,0.60)] text-center [font-family:Inter] text-lg not-italic font-normal ">
-          Trusted by 45M+ users
+          Ils nous font confiance
         </p>
         <div className="flex overflow-x-hidden h-[92px] gap-2 md:gap-10 justify-center items-center pb-7   ">
           <Image
