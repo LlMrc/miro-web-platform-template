@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import banner from "../../public/images/Group.png";
 import { motion } from "framer-motion";
@@ -52,12 +53,12 @@ const CallToAction = () => {
         />
       </div>
 
-      <div className=" relative overflow-hidden group shadow-lg z-0 text-white inline-flex items-center justify-center p-3 border [background:#4262FF] rounded-3xl border-solid border-[#4262FF] hover:text-gray-800">
+      <Link href="/devis" className=" relative overflow-hidden group shadow-lg z-0 text-white inline-flex items-center justify-center p-3 border [background:#4262FF] rounded-3xl border-solid border-[#4262FF] hover:text-gray-800">
         <p className="  text-center [font-family:Helvetica] text-lg not-italic font-normal leading-6">
           Démarrer un projet →
         </p>
         <div className="absolute inset-0 bg-white translate-x-full transition-all duration-300 -z-10 ease-in group-hover:translate-x-0" />
-      </div>
+      </Link>
     </motion.section>
   );
 };

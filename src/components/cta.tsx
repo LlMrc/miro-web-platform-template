@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Cta = () => {
@@ -14,9 +15,9 @@ const Cta = () => {
           Besoin d&apos;une solution sur mesure ? Contactez-nous
         </p>
         <div className="shadow-lg relative overflow-hidden group z-0 text-white inline-flex items-center justify-center p-3 border [background:#4262FF] rounded-3xl border-solid border-white mt-3 hover:text-gray-800">
-          <p className="  text-center [font-family:Helvetica] text-lg not-italic font-normal leading-6">
+         <Link href="/contact">   <p className="  text-center [font-family:Helvetica] text-lg not-italic font-normal leading-6">
             Contactez-nous →
-          </p>
+          </p></Link>
           <div className="absolute inset-0 bg-white translate-x-full transition-all duration-300 -z-10 ease-in group-hover:translate-x-0" />
         </div>
       </div>

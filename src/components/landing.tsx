@@ -4,6 +4,7 @@ import React from "react";
 import StartSvg from "./start";
 import hero_img from "../../public/images/hero.png";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { staggerContainer, zoomIn } from "@/app/utils/motion";
 
@@ -35,9 +36,10 @@ const LandingPage = () => {
              text-white justify-center z-0 shadow-lg cursor-pointer hover:bg-blue-700 transition-all
             items-center px-2 rounded-[32px] border border-solid border-[#4262FF]"
            >
-             <h6 className=" text-center [font-family:Helvetica] text-lg not-italic font-normal leading-[27px]">
+           <Link href="/contact">  <h6 className=" text-center [font-family:Helvetica] text-lg not-italic font-normal leading-[27px]">
                Contactez-nous →
              </h6>
+             </Link>
            </div>
          </div>
 
@@ -61,7 +63,9 @@ const LandingPage = () => {
          </div>
 
           <div className="flex items-start gap-[14.328px] self-end px-4 md:px-10 md:text-2xl py-0">
-            <h4 className="hover:text-blue-800">Contact us ✉</h4>
+            <Link href="/contact">
+              <h4 className="hover:text-blue-800">Contact us ✉</h4>
+            </Link>
           </div>
       </motion.div>
 

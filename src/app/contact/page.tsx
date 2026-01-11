@@ -25,14 +25,14 @@ export default function Contact() {
                <div className="bg-blue-50 p-3 rounded-full mr-4 text-[#4262FF]">📧</div>
               <div>
                 <h3 className="font-bold text-[#050038]">Email</h3>
-                <p className="text-gray-600">contact@masha-plus.com</p>
+                <p className="text-gray-600">gravityleap73@gmail.com</p>
               </div>
             </div>
              <div className="flex items-start">
               <div className="bg-blue-50 p-3 rounded-full mr-4 text-[#4262FF]">📞</div>
               <div>
                 <h3 className="font-bold text-[#050038]">Téléphone</h3>
-                <p className="text-gray-600">+33 1 23 45 67 89</p>
+                <p className="text-gray-600">+509 43 37 50 02</p>
               </div>
             </div>
           </div>

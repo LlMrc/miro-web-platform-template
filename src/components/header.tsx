@@ -54,21 +54,19 @@ const Header = () => {
 
         <ul className=" hidden lg:flex  gap-4 items-center  h-[50px] shrink-0]">
           
-
-          <h6 className="text-[#050038] [font-family:Inter] pl-6 text-base not-italic font-normal leading-6">
+<div className="w-10"></div>
+          <h6 className="text-[#050038] [font-family:Inter] pl-6 text-base not-italic font-normal mr-6 leading-6">
             <Link href="/contact">Contact</Link>
           </h6>
-          <h6 className="text-[#050038] [font-family:Inter] text-base not-italic font-normal leading-6">
-             <Link href="/espace-client">Espace Client</Link>
-          </h6>
-          <Link href="/contact" className="relative overflow-hidden group z-0 inline-flex items-start pl-[22px] pr-[22.766px] py-[17px] text-white  border [background:#4262FF] rounded-3xl border-solid border-[#4262FF] hover:text-gray-800">
+         
+          <Link href="/devis" className="relative overflow-hidden group z-0 inline-flex items-start pl-[22px] pr-[22.766px] py-[17px] text-white  border [background:#4262FF] rounded-3xl border-solid border-[#4262FF] hover:text-gray-800 mr-6">
             <h6 className="  [font-family:Helvetica] text-base not-italic font-normal leading-4">
               Devis Gratuit →
             </h6>
             <div className="absolute inset-0 bg-white translate-x-full transition-all duration-300 -z-10 ease-in group-hover:translate-x-0" />
           </Link>
         </ul>
-      </div>ate
+      </div>
 
       {/* *************************************************************************** */}
       <div
@@ -111,7 +109,7 @@ const Header = () => {
             Espace Client
           </Link>
           <Link
-            href={"/contact"}
+            href={"/devis"}
             onClick={handleClick}
             className="relative overflow-hidden group z-0 inline-flex items-start pl-[22px] pr-[22.766px] py-[17px] text-white  border [background:#4262FF] rounded-3xl border-solid border-[#4262FF] hover:text-gray-800"
           >
